@@ -1,0 +1,14 @@
+@import 'colors';
+@import 'font_stack';
+
+.btn-blue {
+  font-weight: 300;
+  color: $blazar-white;
+  background-color: $blazar-blue;
+  :hover {
+    background-color: $blazar-blue-hover;
+  }
+  :focus {
+    outline-width: 0;
+  }
+}

@@ -1,0 +1,18 @@
+default: &default
+  adapter: postgresql
+  encoding: unicode
+  pool: 5
+
+development:
+  <<: *default
+  database: blazar_development
+
+test:
+  <<: *default
+  database: blazar_test
+
+production:
+  <<: *default
+  database: blazar_production
+  username: blazar
+  password: <%= ENV['BLAZAR_DATABASE_PASSWORD'] %>
