@@ -1,12 +1,20 @@
 @import 'colors';
 @import 'font_stack';
+html, body{
+  background-color: #000;
+}
 
 .home-jumbo-one {
+  background: url("us_from_space.jpeg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
   margin-top: -5px;
+  margin-bottom: -5px;
   padding-bottom: 100px;
-  height: 400px;
+  height: 850px;
   color:$blazar-white;
-  background-color: $blazar-dark-blue;
   h1 {
     font-weight: 300;
     margin-bottom: 0px;
